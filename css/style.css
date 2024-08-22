@@ -1,0 +1,265 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background-color: #384f76;
+    line-height: 1.6;
+    color: #333;
+}
+html{
+	scroll-behavior: smooth;
+}
+header {
+    background-color: #2c3e50;
+    color: white;
+    height: 700px;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #34495e;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(207, 5, 248);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 5px;
+}
+
+.head-img {
+    margin-top: 2rem;
+}
+
+.head-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 5px solid rgb(62, 100, 153);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+h1:after {
+    content: " | Aspiring Software Engineer & Skill Focused";
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    color:#FFC0CB;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	color: #ececeb;
+    text-align:justify;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    /* max-width: 800px; */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: left;
+}
+
+/* Background colors for specific sections */
+/* #about {
+    background-color:#008080; 
+}
+
+#education {
+    background-color:#efbdab; 
+}
+
+#projects {
+    background-color: #567086; 
+}
+
+#achivements {
+    background-color: #0127fe; 
+}
+
+#contact {
+    background-color: #3cd4c5;
+} */
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 10px;
+    padding-right: 2rem;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footer .social a {
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer .social a:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+    color: white;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    border-color: #e67e22;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    padding: 10px;
+    margin: 8px 0;
+    /* width: 80%; */
+    max-width: 450px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    border-color: #e67e22;
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+/* form label {
+    font-size: 18px;
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 10%; */
+
+#contact{
+    height: 300px;
+    width: 100%;
+}
+span{
+    color: #FFC0CB;
+}
+#projectheading{
+    color: rgb(247, 0, 255);
+    padding-left: 15rem;
+}
+#education{
+    list-style:none;
+    color: #fff;
+}
+#h2{
+    padding-left: 12rem;
+}
+#sid{
+    padding-left: 22rem;
+}
+#githubicon{
+    background-color: #FFC0CB;
+    padding-top: 5px;
+}
